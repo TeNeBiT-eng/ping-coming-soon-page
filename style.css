@@ -34,15 +34,27 @@
   #text {
     left: 20% !important;
   }
+
+  #success {
+    left: 20% !important;
+  }
 }
 @media (min-width: 1024px) {
   .imgContainer {
     width: 60% !important;
   }
+
+  #success {
+    left: 27% !important;
+  }
 }
 @media (min-width: 1200px) {
   #text {
     left: 25% !important;
+  }
+
+  #success {
+    left: 25%;
   }
 }
 @media (min-width: 1440px) {
@@ -51,6 +63,10 @@
   }
 
   #text {
+    left: 30% !important;
+  }
+
+  #success {
     left: 30% !important;
   }
 }
