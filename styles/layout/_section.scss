@@ -33,8 +33,12 @@ section{
                 border: 1px solid $paleBlue;
                 padding-top: .5rem;
                 padding-bottom: .5rem;
-                padding-left: 1rem;
+                padding-left: 1.5rem;
                 padding-right: 5rem;
+                &::placeholder{
+                    font-size: .8rem;
+                    color: $paleBlue;
+                }
             }
             p{
                 display: none;
@@ -45,7 +49,6 @@ section{
                 button{
                     width: 100%;
                     margin: 1rem auto;
-                    // margin-top: 1rem;
                     padding-top: .5rem;
                     padding-bottom: .5rem;
                     border-radius: 1.5rem;

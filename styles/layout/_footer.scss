@@ -1,22 +1,31 @@
 footer{
+    margin-top: 7rem;
     .smLogoContainer{
         display: flex;
-        // margin: 0 auto;
-        // width: 37%;
+        justify-content: center;
+        column-gap: 1rem;
         .socialMedia{
-            border: 1px solid $paleBlue;
             border-radius: 1rem;
             width: 2rem;
             height: 2rem;
+            background: white;
+            background: linear-gradient(145deg, #e6e6e6, #ffffff);
+            box-shadow:  2px 2px 4px #d9d9d9,
+                            -2px -2px 4px #ffffff;
             display: flex;
             justify-content: center;
             align-items: center;
-            // padding: .6rem;
             column-gap: 1rem;
             i{
                 color: $Blue;
                 width: 100%;
             }
         }
+    }
+    p{
+        color: $Gray;
+        text-align: center;
+        font-size: .7rem;
+        padding-top: 2rem;
     }
 }
