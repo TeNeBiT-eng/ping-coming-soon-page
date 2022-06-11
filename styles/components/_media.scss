@@ -13,17 +13,40 @@
                 width: 100%;
             }
         }
+        #text{
+            position: absolute;
+            top: 85%;
+            left: 10%;
+        }
+        #success{
+            position: absolute;
+            top: 85%;
+            left: 10%;
+        }
     }
 }
 
+@media (min-width: 900px) {
+    #text{
+        left: 20% !important;
+    }
+}
 @media (min-width: 1024px) {
     .imgContainer{
         width: 60% !important;
+    }
+}
+@media (min-width: 1200px) {
+    #text{
+        left: 25% !important;
     }
 }
 
 @media (min-width: 1440px) {
     .imgContainer{
         width: 45% !important;
+    }
+    #text{
+        left: 30% !important;
     }
 }
